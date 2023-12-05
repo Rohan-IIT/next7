@@ -38,7 +38,10 @@ const UserDetails: React.FC<UserDetailsProps> = ({ user }) => {
 
 
             ) : (
-                <p>Student not found, please enter number between 1-10</p>
+
+                <div className="text-red-600 bg-red-100 border border-red-400 px-4 py-2 rounded-md mb-4">
+                    <p>Student not found, please enter number between 1-10</p>
+                </div>
             )}
         </div>
     );
